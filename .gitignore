@@ -43,8 +43,4 @@ vector_score/
 # OS
 *.local
 
-# Stale root-level artifacts (no package.json here)
 /package-lock.json
-
-# Full mini-interact dataset (reference copy, not needed for app)
-/SQL/
