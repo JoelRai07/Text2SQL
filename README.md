@@ -100,8 +100,6 @@ npm run dev
 
 ## 🏗️ Systemarchitektur
 
-![IT Architektur](./Modelle/IT_ARCHITEKTUR_v2.png)
-
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    Frontend (React)                     │
@@ -345,16 +343,16 @@ Backend: http://localhost:8000
 
 ## 📖 Dokumentation
 
-> **Hinweis:** Die vollständigste Version der Projektdokumentation ist das **[Projektdokumentation-Gruppe2.pdf](./docs/Projektdokumentation-Gruppe2.pdf)** – es enthält alle Diagramme, ADRs, Prozessabläufe und die Projektrreflexion.
+> **Hinweis:** Die vollständigste Version der Projektdokumentation ist das **[Projektdokumentation.pdf](./docs/Projektdokumentation.pdf)** – es enthält alle Diagramme, ADRs, Prozessabläufe und die Projektreflexion.
 
 | Dokument | Inhalt |
 |----------|--------|
-| [Projektdokumentation-Gruppe2.pdf](./docs/Projektdokumentation-Gruppe2.pdf) | **Vollständige Projektdokumentation (empfohlen)** |
-| [Architekturentscheidungen (ADRs)](./docs/ARCHITEKTUR_ENTSCHEIDUNGEN.md) | Alle Architecture Decision Records (MADR-Format) |
-| [BSL Guide](./docs/BSL_GUIDE.md) | Erklärung & Verteidigung des Business Semantics Layer |
-| [Prozessablauf](./docs/PROZESSABLAUF.md) | Detaillierter System-Prozessablauf mit Mermaid-Diagrammen |
+| [Projektdokumentation.pdf](./docs/Projektdokumentation.pdf) | **Vollständige Projektdokumentation (empfohlen)** |
+| [Architekturentscheidungen (ADRs)](./docs/Architecture/ARCHITEKTUR_ENTSCHEIDUNGEN.md) | Alle Architecture Decision Records (MADR-Format) |
+| [BSL Guide](./docs/Architecture/BSL_GUIDE.md) | Erklärung & Verteidigung des Business Semantics Layer |
+| [Prozessablauf](./docs/Architecture/PROZESSABLAUF.md) | Detaillierter System-Prozessablauf mit Mermaid-Diagrammen |
 | [Aufgabenstellung](./docs/AUFGABE.md) | Ursprüngliche Projektaufgabe |
-| [Testfragen](./docs/TESTFRAGEN.md) | Die 10 Evaluierungsfragen (BIRD mini-interact) |
+| [Testfragen](./docs/Testing/TESTFRAGEN.md) | Die 10 Evaluierungsfragen (BIRD mini-interact) |
 
 ## 🧑‍💼 Team
 
@@ -366,7 +364,7 @@ Backend: http://localhost:8000
 
 ## 📅 Projektmanagement
 
-- **Größe**: 5 Studiererende
+- **Größe**: 5 Studierende
 - **Dauer**: ~3 Monate
 - **Methodik**: Agile/Scrum mit 2-Wochen Sprints
 - **Tools**: GitHub Projects, Kanban Board
@@ -402,5 +400,5 @@ Backend: http://localhost:8000
 Dieses Projekt dient ausschließlich zu Studienzwecken an der DHBW Stuttgart.
 
 **Letztes Update**: January 2026  
-**Status**: In aktiver Entwicklung (Voraussichtlicher Abschluss: 30.1.2026)  
+**Status**: Abgeschlossen (Abgabe Januar 2026)  
 **Version**: X.0.0
