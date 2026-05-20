@@ -6,13 +6,6 @@ Dieses Projekt wurde im Rahmen des Moduls "Projekt" an der DHBW Stuttgart entwic
 
 Das Projekt basiert auf dem Benchmark-Datensatz **BIRD-INTERACT (mini-interact)**. Die Hauptaufgabe besteht darin, die bereitgestellten Fragen korrekt zu beantworten, indem die Anwendung dynamisch SQL-Abfragen erzeugt und ausführt.
 
-## 🎯 Projektziele
-
-- Entwicklung eines funktionierenden Text2SQL-Prototyps
-- Nutzung moderner LLM-Technologien zur automatischen SQL-Generierung
-- Erstellung einer Architektur, die Frontend, Backend, LLM und Datenbank verbindet
-- Umsetzung der im Modul geforderten Methoden des Software Engineerings, Projektmanagements und Teamarbeit
-
 ## 🧠 Motivation
 
 Daten sind das Gold des 21. Jahrhunderts – jedoch ist SQL für viele Mitarbeitende eine Hürde. Moderne KI-Modelle ermöglichen es, natürliche Sprache effizient zu interpretieren.
@@ -30,7 +23,7 @@ Mit diesem Projekt helfen wir Unternehmen dabei, **data-driven** zu werden, inde
 
 ## 🛠️ Technologie-Stack
 
--### Backend
+### Backend
 - **Python 3.11+** mit FastAPI
 - **OpenAI API** GPT-5.2
 - **SQLite** für Datenbankabfragen
@@ -74,7 +67,7 @@ OpenAI API Key
 
 ```bash
 # 1. Repository klonen
-git clone 
+git clone https://github.com/JoelRai07/Projekt-Vetter-SQL.git
 
 # 2. Backend Setup
 cd backend
@@ -96,7 +89,7 @@ python main.py
 
 # Terminal 2 (Frontend)
 cd frontend
-npm dev run
+npm run dev
 ```
 
 ### Test
@@ -106,6 +99,8 @@ npm dev run
 ```
 
 ## 🏗️ Systemarchitektur
+
+![IT Architektur](./Modelle/IT_ARCHITEKTUR_v2.png)
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -350,7 +345,16 @@ Backend: http://localhost:8000
 
 ## 📖 Dokumentation
 
-- **[Architecture](./docs/ARCHITEKTUR_UND_PROZESSE_NEU.md)** - Detaillierte Systemarchitektur
+> **Hinweis:** Die vollständigste Version der Projektdokumentation ist das **[Projektdokumentation-Gruppe2.pdf](./docs/Projektdokumentation-Gruppe2.pdf)** – es enthält alle Diagramme, ADRs, Prozessabläufe und die Projektrreflexion.
+
+| Dokument | Inhalt |
+|----------|--------|
+| [Projektdokumentation-Gruppe2.pdf](./docs/Projektdokumentation-Gruppe2.pdf) | **Vollständige Projektdokumentation (empfohlen)** |
+| [Architekturentscheidungen (ADRs)](./docs/ARCHITEKTUR_ENTSCHEIDUNGEN.md) | Alle Architecture Decision Records (MADR-Format) |
+| [BSL Guide](./docs/BSL_GUIDE.md) | Erklärung & Verteidigung des Business Semantics Layer |
+| [Prozessablauf](./docs/PROZESSABLAUF.md) | Detaillierter System-Prozessablauf mit Mermaid-Diagrammen |
+| [Aufgabenstellung](./docs/AUFGABE.md) | Ursprüngliche Projektaufgabe |
+| [Testfragen](./docs/TESTFRAGEN.md) | Die 10 Evaluierungsfragen (BIRD mini-interact) |
 
 ## 🧑‍💼 Team
 

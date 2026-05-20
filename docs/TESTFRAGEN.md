@@ -8,10 +8,3 @@ To analyze digital engagement trends, please group customers into quarterly coho
 I need to analyze debt burden across different customer segments. Can you provide a summary for each segment with relevant debt metrics? Also add a grant total row. Exclude any customer segment with few customers and order the results.
 For each customer, show their ID, liquid and total assets, liquidity measure, monthly income, investment amount and label of their investment potential.
 To pinpoint customers who might be facing financial hardship, I'd like to see their customer ID, the calculated vulnerability score, their net worth, delinquency count, and late payment count. Only output the customers with signs of financial hardship.
-
-
-
-Beschädigte Dateien sind ChromaDB-Vektor-Store-Datenbanken
-Frage 8 braucht noch average tdsr und median digital
-Frage 6 CU wird nicht ausgegeben und mehr daten als gewollt
-Frage 10 CU wird nicht ausgegeben
