@@ -67,7 +67,7 @@ OpenAI API Key
 
 ```bash
 # 1. Repository klonen
-git clone https://github.com/JoelRai07/Projekt-Vetter-SQL.git
+git clone <repo-url>
 
 # 2. Backend Setup
 cd backend
